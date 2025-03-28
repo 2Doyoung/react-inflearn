@@ -52,7 +52,7 @@ class NotificationList extends React.Component {
                     return <Notification key={notification.id} id={notification.id} message={notification.message}></Notification>
                 })}
             </div>
-        )
+        );
     }
 }
 
